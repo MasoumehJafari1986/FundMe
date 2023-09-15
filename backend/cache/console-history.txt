@@ -1,0 +1,12 @@
+await ethers.provider.getBlockNumber()
+.exit
+await ethers.provider.getBlockNumber()
+await ethers.provider.getblocknumber()
+.exit
+await ethers.provider.getBlockNumber()
+ethers.provider.getBlockNumber()
+await FundMe.getOwner()
+FundMe.getOwner()
+  const FundMe= await FundMeFactory.deploy("0xd9145CCE52D386f254917e481eB44e9943F39138")
+FundMeFactory
+  const FundMeFactory = await ethers.getContractFactory("FundMe")

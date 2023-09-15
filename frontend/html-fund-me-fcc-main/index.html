@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fund Me App</title>
+  </head>
+
+  <body>
+    <p>
+      <img src="https://s6.uupload.ir/files/fundme_narl.jpg" alt="photo of fundMe" width="200" height="150">
+    </p>
+    <button id="connectButton">Connect</button>
+    <button id="balanceButton">getBalance</button>
+    <button id="withdrawButton">Withdraw</button>
+
+    <p>
+      <br />
+    <!-- <form> -->
+    <label for="ethAmount">ETH Amount</label>
+    <input id="ethAmount" placeholder="0.1" type="number"/>
+    <button type="button" id="fundButton" > Fund </button>
+    <!-- </form> -->
+    <br />
+    </p>
+    <p>
+      <br />
+      <label for="userAddress">User Address</label>
+      <input id="userAddress" placeholder="0x123..." type="text"/>
+      <label for="refundAmount">Refund Amount</label>
+      <input id="refundAmount" placeholder="0.1" type="number"/>
+      <button type="button" id="refundButton" > Refund </button>
+      <br />
+    </p>
+
+    <script src="./ethers-5.6.esm.min.js"></script>
+    <script src="./constants.js"></script>
+    <script type="module" src="index.js"></script>
+
+  </body>
+</html>
